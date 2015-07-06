@@ -9,8 +9,10 @@ object oily extends App {
 
   println(s"Oily!")
 
-  println(s"" + stampy())
-  println(s"" + PrimeTester(15))
-  println(s"" + PrimeTester(7))
+  val primeTester = new PrimeTester
+  val st = new stampy
+  println(s"" + st.gwar())
+  println(s"" + primeTester.isPrime(15))
+  println(s"" + primeTester.isPrime(7))
 
 }
