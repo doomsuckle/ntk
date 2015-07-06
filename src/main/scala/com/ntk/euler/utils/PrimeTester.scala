@@ -12,4 +12,8 @@ object PrimeTester {
   def isPrime(x: Int): Boolean = {
     !isComposite(x)
   }
+
+  def apply(x: Int): Boolean = {
+    isPrime(x)
+  }
 }
